@@ -1,0 +1,15 @@
+{
+  "name": "goldendoor-intel-card",
+  "version": 2,
+  "buildCommand": "",
+  "outputDirectory": "public",
+  "framework": null,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ]
+}
